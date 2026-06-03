@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <title>OmMig</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-billede">
+          <a href="index.html"><img src="img/Logo1_done.webp" alt="logo" /></a>
+        </div>
+        <ul class="menu">
+          <li class="menuItem"><a href="index.html">Forside</a></li>
+          <li class="menuItem"><a href="tema1.html">Tema 2</a></li>
+          <li class="menuItem"><a href="tema2.html">Tema 3</a></li>
+          <li class="menuItem"><a href="tema3.html">Tema 4</a></li>
+          <li class="menuItem"><a href="tema4.html">Tema 5</a></li>
+          <li class="menuItem"><a href="virksomhed.html">virksomhedsite</a></li>
+          <li class="menuItem"><a href="OmMig.html">Om Mig</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>Om mig</h1>
+        <img src="img/potræt_done.webp" alt="" />
+      </div>
+      <div>
+        <p>Før jeg begyndte på multimediedesignuddannelsen, studerede jeg på HHX i Næstved. Efter gymnasiet havde jeg to sabbatår, hvor jeg arbejdede i forskellige kundeservicerelaterede stillinger.</p>
+        <p>
+          Herefter fulgte en længere periode på næsten et år, hvor jeg aktivt søgte arbejde og overvejede mine fremtidige uddannelses- og karrieremuligheder. For lidt over et år siden startede jeg en YouTube-kanal, hvilket længe havde været en
+          personlig drøm. <br />Arbejdet med kanalen vækkede min interesse for digitalt indhold, sociale medier og de tekniske processer bag, og det blev i sidste ende en af de vigtigste årsager til, at jeg valgte at søge ind på
+          multimediedesignuddannelsen. Da jeg begyndte på uddannelsen, havde jeg ingen erfaring med programmering. Min oprindelige motivation var primært at lære mere om sociale medier, content creation og digital kommunikation.
+        </p>
+
+        <p>
+          Derfor blev jeg positivt overrasket over, hvor meget interesse jeg udviklede for kodning allerede i løbet af første semester. Jeg har fundet programmering både spændende og motiverende, og jeg er blevet overrasket over, hvor naturligt
+          læringsprocessen har føltes det meste af tiden. Uddannelsen har dog ikke været uden udfordringer. Jeg har oplevet, hvordan selv små fejl i kode kan have stor betydning for det endelige resultat, og jeg har skullet tilegne mig helt nye
+          arbejdsmetoder og måder at tænke på. Disse udfordringer har bidraget til en betydelig faglig og personlig udvikling gennem første semester. Samlet set er jeg meget tilfreds med de projekter, jeg har arbejdet på, og med den viden og de
+          kompetencer, jeg har opnået.
+        </p>
+        <p>Jeg har ikke kun lært meget om multimediedesign, digitale medier og programmering, men også fået en bedre forståelse af mine egne styrker, interesser og muligheder for fremtiden.</p>
+      </div>
+      <div>
+        <h1>Nyhedsbrev</h1>
+        <section id="form-section">
+          <article id="form-info">
+            <h2>Sign up til mit nyhedsbrev:</h2>
+            <p>udfyld nedestående bokse</p>
+          </article>
+          <form id="webform" aria-label="Ticket sign-up form" name="webform">
+            <fieldset>
+              <legend>
+                <h2>Personlig information</h2>
+              </legend>
+              <div class="form-group">
+                <label for="name">Fulde navn</label>
+                <input required id="name" type="text" name="name" />
+                <p class="error-message">skriv dit fulde navn</p>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input required id="email" type="email" name="email" aria-describedby="email-error" />
+                <p class="error-message">skriv en valid email med @</p>
+              </div>
+              <div class="form-group">
+                <label for="age">Fødselsdag</label>
+                <input required id="age" type="date" name="age" />
+                <p class="error-message">skriv en valid fødselsdato</p>
+              </div>
+              <div>
+                <label for="number">Mobilnummer</label>
+                <input required id="number" type="tel" name="number" aria-describedby="number-error" />
+                <p class="error-message">skriv et validt telefonnummer</p>
+              </div>
+            </fieldset>
+            <div>
+              <button>Submit</button>
+            </div>
+            <div id="thankyou" role="status" aria-live="polite" hidden class="thankyou"></div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/burger.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Outfitnormal";
+  src: url(../fonts/Outfit-VariableFont_wght.woff);
+  font-weight: normal;
+}
+p,
+label,
+button {
+  font-family: "Outfitnormal";
+}
+@font-face {
+  font-family: "Outfitblack";
+  src: url(../fonts/Outfit-Black.woff);
+  font-weight: normal;
+}
+h1,
+h2 {
+  font-family: "Outfitblack";
+}
+a {
+  font-family: "Outfitnormal";
+}
+header,
+footer {
+  background-color: #6e9e3a;
+  border:
+    #f4a261,
+    solid 4px;
+}
+button:active {
+  scale: 0.98;
+}
+body {
+  background-color: #c7e5a2;
+}
+button {
+  background-color: #6e9e3a;
+  border: #f4a261 solid 3px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+  color: #1f2933;
+}
+button a {
+  color: #1f2933;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 5px;
+}
+.logo-billede img {
+  height: 105px;
+  width: 105px;
+}
+#hero-billede {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 1200px) {
+  p {
+    margin: 10px;
+    padding: 10px;
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  /* få knappen oven på billerne */
+  #et-projekt {
+    position: relative;
+    display: inline-block;
+  }
+  #et-projekt img {
+    display: block;
+    width: 100%;
+  }
+  #projekt-button {
+    position: absolute;
+    top: 300px; /* distance from top */
+    left: 200px; /* distance from left */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #projekt-buttonmobil {
+    position: absolute;
+    top: 575px; /* distance from top */
+    left: 200px; /* distance from left */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #gallery-button {
+    position: absolute;
+    top: 260px; /* distance from top */
+    left: 200px; /* distance from left */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #figma-button {
+    position: absolute;
+    top: 330px; /* distance from top */
+    left: 200px; /* distance from left */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #hobby-button {
+    position: absolute;
+    top: 240px; /* distance from top */
+    left: 200px; /* distance from left */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #figma2-button {
+    position: absolute;
+    top: 460px; /* distance from top */
+    left: 200px; /* distance from left */
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+}
