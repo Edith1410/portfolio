@@ -15,11 +15,14 @@
 .burger {
   display: none;
 }
-@media screen and (width < 800px) {
+@media screen and (max-width: 1000px) {
   .menu {
     display: none;
   }
   .logo {
+    flex: 0 0 50vw;
+  }
+  .logo-billede {
     flex: 0 0 50vw;
   }
   .burger {

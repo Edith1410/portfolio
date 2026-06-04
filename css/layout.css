@@ -24,4 +24,15 @@ footer nav {
     object-fit: cover; /* crops to fill without stretching */
     display: block;
   }
+  #mobilesite-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  #mobilesite-grid img {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* keeps uniform ratio */
+    object-fit: cover; /* crops to fill without stretching */
+    display: block;
+  }
 }
