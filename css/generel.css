@@ -92,7 +92,8 @@ img {
     text-align: center;
   }
   /* få knappen oven på billerne */
-  #et-projekt {
+  #et-projekt,
+  #et-projekt2 {
     position: relative;
     display: inline-block;
   }
@@ -157,7 +158,8 @@ img {
 /* computer view */
 @media (min-width: 1000px) {
   /* få knappen oven på billerne */
-  #et-projekt {
+  #et-projekt,
+  #et-projekt2 {
     position: relative;
     display: inline-block;
   }
@@ -165,6 +167,16 @@ img {
     display: block;
     width: 100%;
   }
+  #et-projekt2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  #et-projekt2 img {
+    max-width: 500px;
+    height: auto;
+  }
+
   #projekt-button {
     position: absolute;
     top: 200px; /* distance from top */
@@ -210,15 +222,15 @@ img {
   }
   #projekt-buttonmobil2 {
     position: absolute;
-    top: 750px; /* distance from top */
-    left: 200px; /* distance from left */
+    top: 600px; /* distance from top */
+    left: 700px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;
   }
   #emergency-button {
     position: absolute;
-    top: 550px; /* distance from top */
-    left: 330px; /* distance from left */
+    top: 320px; /* distance from top */
+    left: 680px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;
   }
@@ -252,9 +264,8 @@ img {
   #potræt-img {
     max-width: 400px;
     border: #f4a261 solid 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
   }
 }
 
