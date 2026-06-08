@@ -34,12 +34,10 @@ form {
 }
 
 /* adding the * at required questions */
-.form-group,
-.skillcheck:has(:required) {
-  label::after {
-    content: " *";
-    color: red;
-  }
+.form-group:has(:required) label::after,
+.skillcheck:has(:required) label::after {
+  content: " *";
+  color: red;
 }
 /* more space between checkboxes */
 .skillcheck {
