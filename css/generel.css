@@ -29,9 +29,7 @@ a {
 header,
 footer {
   background-color: #6e9e3a;
-  border:
-    #f4a261,
-    solid 4px;
+  border: #f4a261 solid 4px;
 }
 /* Remove bullets from header navigation and reset spacing */
 .menu {
