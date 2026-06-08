@@ -58,13 +58,21 @@ body {
 #projekt-button2,
 #projekt-button3,
 #projekt-button4,
-#projekt-button5 {
+#projekt-button5,
+#projekt-buttonmobil2,
+#website-button,
+#gallery-button,
+#emergency-button,
+#hobby-button2,
+#figma2-button,
+button {
   background-color: #6e9e3a;
   border: #f4a261 solid 3px;
   border-radius: 15px;
-  min-width: 40px;
-  min-height: 40px;
+  min-width: 30px;
+  min-height: 30px;
   padding: 12px 20px;
+  margin: 5px;
   color: #1f2933;
   display: inline-flex;
   align-items: center;
@@ -104,7 +112,8 @@ img {
   #et-projekt3,
   #et-projekt4,
   #et-projekt5,
-  #et-projekt6 {
+  #et-projekt6,
+  #projekt-buttonmobil2 {
     position: relative;
     display: inline-block;
   }
@@ -113,6 +122,10 @@ img {
     width: 100%;
   }
   #projekt-button,
+  #projekt-button2,
+  #projekt-button3,
+  #projekt-button4,
+  #projekt-button5,
   #website-button,
   #emergency-button,
   #virksomhed-button {
@@ -268,7 +281,7 @@ img {
   p {
     margin: 20px;
   }
-  #forside-tekst {
+  .forside-tekst {
     max-width: 850px;
     margin: 0 auto;
     line-height: 1.6;
