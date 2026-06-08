@@ -65,7 +65,8 @@ body {
 #emergency-button,
 #hobby-button2,
 #figma2-button,
-button {
+#website-button2,
+#ommig-knap {
   background-color: #6e9e3a;
   border: #f4a261 solid 3px;
   border-radius: 15px;
@@ -128,7 +129,8 @@ img {
   #projekt-button5,
   #website-button,
   #emergency-button,
-  #virksomhed-button {
+  #virksomhed-button,
+  #website-button2 {
     position: absolute;
     top: 300px; /* distance from top */
     left: 200px; /* distance from left */
@@ -224,9 +226,10 @@ img {
     cursor: pointer;
   }
   #gallery-button,
-  #website-button {
+  #website-button,
+  #website-button2 {
     position: absolute;
-    top: 360px; /* distance from top */
+    top: 330px; /* distance from top */
     left: 280px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;
@@ -240,14 +243,14 @@ img {
   }
   #hobby-button2 {
     position: absolute;
-    top: 360px; /* distance from top */
-    left: 300px; /* distance from left */
+    top: 340px; /* distance from top */
+    left: 350px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;
   }
   #figma2-button {
     position: absolute;
-    top: 360px; /* distance from top */
+    top: 340px; /* distance from top */
     left: 280px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;
@@ -255,13 +258,13 @@ img {
   #projekt-buttonmobil2 {
     position: absolute;
     top: 600px; /* distance from top */
-    left: 700px; /* distance from left */
+    left: 645px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;
   }
   #emergency-button {
     position: absolute;
-    top: 320px; /* distance from top */
+    top: 300px; /* distance from top */
     left: 680px; /* distance from left */
     padding: 10px 20px;
     cursor: pointer;

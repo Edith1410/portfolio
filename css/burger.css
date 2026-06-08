@@ -15,7 +15,7 @@
 .burger {
   display: none;
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1200px) {
   .menu {
     display: none;
   }
@@ -31,6 +31,7 @@
     border: 0;
     flex: 0 0 auto;
     margin: 0 20px;
+    color: #1f2933;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
